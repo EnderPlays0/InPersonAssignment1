@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: sans-serif, Arial, Helvetica;
+    --font-color-primary: #000000;
+    --font-color-secondary: #e0e0e0;
+}
+a {
+    color: #ffffff;
+}
+body {
+    background-color: #000000;
+}
+.product-card{
+    width: 800px;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: 350px;
+    margin-top: 120px;
+}
+.product-card img{
+    height: 425px;
+    width: 350px;
+    justify-content: center;
+}
+.product-card .right-info-col{
+    padding-right: 20px;
+    background-color: #ffffff;
+    position: relative;
+}
+.product-card .right-info-col h3{
+    font-size: 32px;
+    padding: 15px;
+}
+.product-card .right-info-col h5{
+    font-size: 18px;
+    color: var(--font-color-secondary);
+    padding: 15px;
+    padding-top: 15px;
+}
+.product-card .right-info-col p{
+    padding-left: 50px;
+    font-size: 14px;
+    padding-top: 20px;
+}
+.product-card .available-colors{
+    font-size: 14px;
+    padding: 50px;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+.black-color-container{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: black;
+}
+.black-color-container+.red-color-container{
+    margin-left: 20px;
+}
+.red-color-container {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: red;
+}
+.red-color-container+.white-color-container{
+    margin-left: 20px;
+}
+.white-color-container {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: beige;
+}
+.product-card .price h4{
+    font-size: 32px;
+    display: inline-flex;
+    margin-bottom: 20px;
+    padding-right: 80px;
+    padding-left: 20px;
+}
+.product-card .buy-btn{
+    background-color: #000000;
+    color: #ffffff;
+    width: 150px;
+    height: 40px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
